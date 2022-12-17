@@ -1,0 +1,134 @@
+/* ==UserStyle==
+@name           Udemy Dracula
+@namespace      github.com/KaspianDev/udemy-dracula
+@version        1
+@description    A dracula theme for udemy video player.
+@author         KaspianDev on GitHub
+==/UserStyle== */
+@-moz-document url-prefix("https://www.udemy.com/course") {
+
+    .sidebar--sidebar-header--3RQk_,
+    .sidebar--content---4z0- {
+        border: 1px solid #44475a;
+        background-color: #282a36;
+    }
+
+    .app--column-container--3AItG .app--sidebar-column--2t0E8,
+    .curriculum-item-link--curriculum-item--KX9MD.curriculum-item-link--is-current--31BPo > .item-link,
+    .curriculum-item-link--curriculum-item--KX9MD > .item-link {
+        background: #282a36 !important;
+    }
+
+    .curriculum-item-link--curriculum-item--KX9MD > .item-link:hover {
+        background: #313442 !important;
+    }
+
+    .section--section--BukKG .ud-accordion-panel-toggler {
+        background: #23252f;
+    }
+
+    .course-overview--grid-row--1nKqQ,
+    .accordion-panel--panel--24beS {
+        border-top: 1px solid #44475a;
+    }
+
+    .ud-fake-toggle-input {
+        border: .2rem solid #52566d;
+    }
+
+    .curriculum-item-link--curriculum-item--KX9MD > .item-link .curriculum-item-link--metadata--e17HG {
+        color: #e0e0da
+    }
+
+    .show-more--container--3W59b span[data-checked=""] ~ .show-more--with-gradient--2hRXX.show-more--content--2BLF7 {
+        -webkit-mask-image: linear-gradient(#282a36, #282a36, rgba(255, 255, 255, 0));
+    }
+
+    body,
+    .curriculum-item-link--curriculum-item--KX9MD > .item-link,
+    .curriculum-item-link--curriculum-item--KX9MD > .item-link:hover .curriculum-item-link--metadata--e17HG,
+    .curriculum-item-link--curriculum-item--KX9MD.curriculum-item-link--is-current--31BPo > .item-link .curriculum-item-link--metadata--e17HG,
+    .dropdown--menu--3RcHR .ud-block-list-item,
+    .dropdown--menu--3RcHR .ud-block-list-item:not(.ud-btn-disabled):hover,
+    .dropdown--menu--3RcHR .ud-block-list-item:not(.ud-btn-disabled):hover .ud-block-list-item-icon,
+    .ud-icon-color-neutral,
+    .email-settings-menu-item--email-settings-option-checkbox--1xgQy.ud-toggle-input-disabled {
+        color: #f8f8f2;
+    }
+
+    .popover--popover--Az__U {
+        background-color: #282a36;
+        color: #f8f8f2;
+    }
+
+    .popover--arrow--5b0-d::before {
+        background-color: #282a36;
+        border: 1px solid #44475a;
+    }
+
+    body,
+    .popover--arrow--5b0-d::after {
+        background-color: #282a36;
+    }
+
+    .popover--popover--Az__U {
+        box-shadow: 0 0 0 1px #44475a, 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    }
+
+    .ud-btn-secondary,
+    .ud-btn-secondary.ud-btn-disabled {
+        color: #bd93f9;
+        border: 1px solid #bd93f9;
+    }
+
+    .ud-btn-ghost,
+    .ud-btn-ghost.ud-btn-disabled,
+    .ud-btn-link,
+    .ud-btn-link.ud-btn-disabled,
+    a {
+        color: #bd93f9;
+    }
+
+    .ud-btn-ghost:active,
+    .ud-btn-link:active,
+    .ud-btn-ghost:hover,
+    .ud-btn-link:hover,
+    a:hover {
+        color: #ae89e4;
+    }
+
+    .ud-btn-secondary:active,
+    .ud-btn-secondary:hover,
+    .ud-btn-secondary:focus {
+        color: #a782db;
+    }
+
+    .dropdown--dropdown-menu--vbAYK {
+        background-color: #282a36;
+        border: 1px solid #44475a;
+    }
+
+    .ud-real-toggle-input:checked ~ .ud-fake-toggle-checkbox {
+        background: #282a36;
+        border-color: #44475a;
+        color: #fff;
+    }
+
+    .ud-link-neutral,
+    .accordion-panel--panel-toggler--UP46Q {
+        color: #f8f8f2 !important;
+    }
+
+    .tabs--tabs-container--PvhiR {
+        --tabs-scroll-left-bg: linear-gradient(to right, #44475a 75%, rgba(255, 255, 255, 0));
+        --tabs-scroll-right-bg: linear-gradient(to left, #44475a 75%, rgba(255, 255, 255, 0));
+        --tabs-scroll-right-bg-overflow: linear-gradient(to left, #44475a, rgba(255, 255, 255, 0));
+        --tabs-pagination-color: #bd93f9;
+        --tabs-text-color-default: #f8f8f2;
+        --tabs-nav-color-default: #d9d9d2;
+        --tabs-nav-color-active: #f8f8f2;
+        --tabs-nav-color-hover: #f8f8f2;
+        --tabs-container-border-bottom-active: 0.2rem solid #f8f8f2;
+        --tabs-box-shadow-color: #44475a;
+    }
+}
